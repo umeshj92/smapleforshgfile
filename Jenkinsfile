@@ -7,8 +7,8 @@ pipeline {
     stage('Hello') {
       steps {
         sh '''
-         chmod +x script.sh
-          ./smapleforshgfile/script.sh
+         chmod +rwx
+          ./script.sh
       }
     }
   }
