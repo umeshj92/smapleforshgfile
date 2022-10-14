@@ -8,7 +8,7 @@ pipeline {
       steps {
         sh '''
          chmod +x script.sh
-          ./script.sh
+          ./smapleforshgfile/script.sh
       }
     }
   }
